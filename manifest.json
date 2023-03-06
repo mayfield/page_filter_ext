@@ -1,0 +1,29 @@
+{
+    "manifest_version": 3,
+    "name": "Page Filter",
+    "version": "0.0.1",
+    "commands": {
+        "showFilter": {
+            "suggested_key": {
+                "default": "Ctrl+Shift+F"
+            },
+            "description": "Show Page Fitler",
+            "gloabl": true
+        }
+    },
+    "background": {
+        "service_worker": "src/background.mjs",
+        "type": "module"
+    },
+    "host_permissions": ["*://*/*"],
+    "content_scripts": [{
+        "matches": ["*://*/*"],
+        "run_at": "document_start",
+        "js": ["src/loader.js"],
+        "css": ["css/page.css"]
+    }],
+    "web_accessible_resources": [{
+        "resources": ["src/*"],
+        "matches": ["*://*/*"]
+    }]
+}

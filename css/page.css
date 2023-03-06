@@ -1,0 +1,37 @@
+.page-filter-hidden-las44492fddljkl243lsadfljasdlkfj {
+    display: none !important;
+}
+
+dialog.page-filter-las44492fddljkl243lsadfljasdlkfj {
+    position: fixed !important;
+    top: 0 !important;
+    z-index: 9999999999999 !important;
+    font: 16px sans-serif !important;
+    font-size: 16px !important;
+    font-family: sans-serif !important;
+    padding: 0.5em !important;
+    border-bottom-left-radius: 0.3em !important;
+    border-bottom-right-radius: 0.3em !important; 
+    border: 2px solid #333 !important;
+    border-top: none !important;
+    background: #f22e !important; 
+    color: white !important;
+    box-shadow: 1px 1px 5px #0009;
+}
+
+dialog.page-filter-las44492fddljkl243lsadfljasdlkfj form {
+    display: flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+}
+
+dialog.page-filter-las44492fddljkl243lsadfljasdlkfj form > * {
+    margin: 0.2em 0 !important;
+    padding: 0.2em 0.5em !important;
+}
+
+dialog.page-filter-las44492fddljkl243lsadfljasdlkfj form button {
+    appearance: revert !important;
+    background: revert !important;
+    border: revert !important;
+}
